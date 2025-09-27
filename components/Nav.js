@@ -18,31 +18,31 @@ export default function Nav() {
             href="/" 
             className="hover:text-blue-200"
           >
-            Inicio
+            Home
           </Link>
           <Link 
             href="/" 
             className="hover:text-blue-200"
           >
-            Acerca de
+            About us
           </Link>
           <Link 
             href="/" 
             className="hover:text-blue-200"
           >
-            Contacto
+            Contact
           </Link>
           <Link 
             href="/login" 
             className="hover:text-blue-200"
           >
-            Iniciar Sesion
+            Login
           </Link>
           <Link 
             href="/registrar" 
             className="hover:text-blue-200"
           >
-            Registrarse
+            Sign up
           </Link>
         </div>
       </div>

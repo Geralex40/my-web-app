@@ -29,7 +29,7 @@ export default function Login() {
   return (
     <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
       <div className="bg-white py-8 px-6 shadow rounded-lg sm:px-10">
-        <h1 className='text-black text-lg text-center'>Iniciar Sesión</h1>
+        <h1 className='text-black text-lg text-center'>Login</h1>
         <form className="mb-0 space-y-6" onSubmit={handleSubmit}>
           <div>
             <label className="text-black">Email:</label>
@@ -44,7 +44,7 @@ export default function Login() {
             />
           </div>
           <div>
-            <label className='text-black'>Contraseña:</label>
+            <label className='text-black'>Password:</label>
             <input
               className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm
               focus:outline-none focus:border-indigo-500 focus:ring
@@ -57,12 +57,12 @@ export default function Login() {
           </div>
           <button className='text-white w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm
               focus:outline-none focus:border-indigo-500 focus:ring
-              focus:ring-indigo-500 bg-indigo-500' type="submit">Iniciar Sesión</button>
+              focus:ring-indigo-500 bg-indigo-500' type="submit">Login</button>
         </form>
         <div className="text-center">
           <Link
           className="text-indigo-800" href="/"
-          />Volver
+          />Go back
         </div>
       </div>
     </div>
